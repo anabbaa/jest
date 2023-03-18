@@ -1,0 +1,24 @@
+{
+  "name": "jest",
+  "//":"this is comment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "lite-server": "^2.6.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["html"],
+    "coverageDirectory": "reports",
+    "collectedCoverageFrom": "**/*.{js,jsk,ts}",
+    "coveragePathIgnorePatterns": ["/node_modules/"]
+  }
+}
